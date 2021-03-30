@@ -1,0 +1,181 @@
+html{
+  min-width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  opacity: 75%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.origin {
+  min-width: auto;
+}
+
+.header{
+  display: flex;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.navbar {
+  width: 50%;
+  text-align: right;
+  margin: auto;
+}
+
+.navbar li{
+  display: inline-block;
+}
+
+.top, .bottom-left, .bottom-right{
+  width: 50%;
+}
+.top li{
+  min-height: 48px;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  color: darkgrey;
+  margin: 10px;
+}
+
+.main {
+  padding-top: 10%;
+  height: 100%;
+}
+
+.bottom {
+  bottom: 0%;
+  position: fixed;
+  width: 100%;
+  min-height: 45px;
+  background-color: rgb(231, 230, 230);
+}
+
+.sign_in {
+  background-color: rgb(35, 116, 223);
+  color: #f1f1f1;
+  border-style: none;
+  padding: 10px;
+  border-radius: 2px;
+  width: 65px;
+}
+
+.search {
+  padding: 85px 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.buttons ul {
+  padding: 10px 0px;
+  background-color: lightgray;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 15px;
+  font-size: inherit;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  float: center;
+  width: 590px;
+  background: #f8f9fa;
+}
+
+/* Style the submit button */
+form.example button {
+  align-self: flex-start;
+  width: 20%;
+  margin: 25px 8px;
+  height: 30px;
+  background-color: #f8f9fa;
+  font-size: 80%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form.example button:hover {
+  border-color: black;
+}
+
+.gray-box{
+  display: flex;
+  width: 100%;
+}
+
+.gray-box li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.bottom-left{
+  width: 50%;
+  padding: 5px 15px;
+}
+
+.bottom-right{
+  width: 50%;
+  text-align: right;
+  padding: 5px 30px;
+}
+
+.bottom-left li{
+  text-align: left;
+}
+
+.bottom-right li {
+  text-align: right;
+}
+
